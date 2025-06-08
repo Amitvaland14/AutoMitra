@@ -1,4 +1,4 @@
-const encoded = "#countdown 3||COMING|SOON|23/09/2002|AutoMitra|Amit & Malav|Lanch|";
+const encoded = "#countdown 3||COMING|SOON|23/09/2025|AutoMitra|Amit & Malav|Lanch|";
 
 
 var S = {
@@ -12,7 +12,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      const secret = "#countdown 3||COMING|SOON|23/09/2002|AutoMitra|Amit & Malav|Lanch|";
+      const secret = "#countdown 3||COMING|SOON|23/09/2025|AutoMitra|Amit & Malav|Lanch|";
 S.UI.simulate(secret);
       S.UI.simulate(secret);
     }
